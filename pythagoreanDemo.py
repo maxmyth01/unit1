@@ -9,4 +9,4 @@ b = float(input('enter leg two'))
 
 c= sqrt((a**2)+(b**2))
 
-print(c)
+print('The hypotenuse is',c)
