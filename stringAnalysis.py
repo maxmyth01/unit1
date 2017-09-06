@@ -3,7 +3,7 @@
 #stringAnalysis.py - Studies a sentance and counts the amount of words letter and scans for a letter and word
 
 sentance = input('Enter a Sentance')
-sentance.upper()
+sentance = sentance.upper()
 space = (' ')
 totalWords= (sentance.count(space)+1)
 totalCharactures = len(sentance)
@@ -13,6 +13,7 @@ totalLetters = (totalCharactures-totalWords-1)
 print('Your sentance has', totalWords ,'words and', totalCharactures ,'characters and', totalLetters ,'letters')
 
 letter = input('Enter a character to search for:')
+letter = letter.upper()
 
 selectLetter = sentance.count(letter)
 
@@ -20,6 +21,7 @@ selectLetter = sentance.count(letter)
 print('Your sentance has', selectLetter ,'of the character',letter)
 
 word = input('Enter a word to search for:')
+word = word.upper()
 
 selectWord = sentance.count(word)
 
