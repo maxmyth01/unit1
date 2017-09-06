@@ -3,12 +3,27 @@
 #stringAnalysis.py - Studies a sentance and counts the amount of words letter and scans for a letter and word
 
 sentance = input('Enter a Sentance')
-Print('Your sentance has', ,'words and', ,'characters and', ,'letters')
+sentance.upper()
+space = (' ')
+totalWords= (sentance.count(space)+1)
+totalCharactures = len(sentance)
+totalLetters = (totalCharactures-totalWords)
+
+
+Print('Your sentance has', totalWords ,'words and', totalCharactures ,'characters and', totalLetters ,'letters')
 
 letter = input('Enter a character to search for:')
-print('Your sentance has', ,'of the character',letter)
+
+selectLetter = sentance.count(letter)
+
+
+print('Your sentance has', selectLetter ,'of the character',letter)
 
 word = input('Enter a word to search for:')
-print('Your sentance has', ,'of the word',word')
+
+selectWord = sentance.count(word)
+
+
+print('Your sentance has', selectWord ,'of the word',word)
 
 
