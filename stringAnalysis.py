@@ -7,10 +7,10 @@ sentance.upper()
 space = (' ')
 totalWords= (sentance.count(space)+1)
 totalCharactures = len(sentance)
-totalLetters = (totalCharactures-totalWords)
+totalLetters = (totalCharactures-totalWords-1)
 
 
-Print('Your sentance has', totalWords ,'words and', totalCharactures ,'characters and', totalLetters ,'letters')
+print('Your sentance has', totalWords ,'words and', totalCharactures ,'characters and', totalLetters ,'letters')
 
 letter = input('Enter a character to search for:')
 
