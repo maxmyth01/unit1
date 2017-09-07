@@ -4,6 +4,6 @@
 
 from random import randint
 
-input('Enter your name')
+input('Enter your name: ')
 
 print('Your lucky number is',randint(-10,10))
