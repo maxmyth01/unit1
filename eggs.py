@@ -7,7 +7,6 @@
 eggs = int(input('Give a number of eggs'))
 carton = int(input('Give a number of cartons'))
 
-fit = (12 *carton)//eggs
+fit = (12 *carton)--eggs
 
-print(fit)
-
+fit >= 0
