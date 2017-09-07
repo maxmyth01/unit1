@@ -7,8 +7,5 @@
 eggs = int(input('Give a number of eggs'))
 carton = int(input('Give a number of cartons'))
 
-if ((12 *carton) - eggs) >=0
-    print('They will fit') 
-        else
-    print('They will not fit')
-
+print (((12 *carton) - eggs) >=0)
+ 
