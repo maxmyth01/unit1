@@ -10,22 +10,22 @@ binary = (binary//10)
 runningTotal = runningTotal+ 2*(binary%10)
 binary = (binary//10)
 
-runningTotal = runningTotal+ 2*2*(binary%10)
+runningTotal = runningTotal+ (2**2)*(binary%10)
 binary = (binary//10)
 
-runningTotal = runningTotal+ 2*2*2*(binary%10)
+runningTotal = runningTotal+ (2**3)*(binary%10)
 binary = (binary//10)
 
-runningTotal = runningTotal+ 2*2*2*2*(binary%10)
+runningTotal = runningTotal+ (2**4)*(binary%10)
 binary = (binary//10)
 
-runningTotal = runningTotal+ 2*2*2*2*2*(binary%10)
+runningTotal = runningTotal+ (2**5)*(binary%10)
 binary = (binary//10)
 
-runningTotal = runningTotal+ 2*2*2*2*2*2*(binary%10)
+runningTotal = runningTotal+ (2**6)*(binary%10)
 binary = (binary//10)
 
-runningTotal = runningTotal+ 2*2*2*2*2*2*2*(binary%10)
+runningTotal = runningTotal+ (2**7)*(binary%10)
 binary = (binary//10)
 
 print('That is',runningTotal)
