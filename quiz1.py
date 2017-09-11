@@ -6,9 +6,9 @@ from random import randint
 
 print('Max Low')
 
-num1 = float(Input('Enter a number: '))
+num1 = float(input('Enter a number: '))
 
-num2 = float(Input('Enter an another number: '))
+num2 = float(input('Enter an another number: '))
 
 print('The sum is',num1+num2)
 print('The product is',num1*num2)
